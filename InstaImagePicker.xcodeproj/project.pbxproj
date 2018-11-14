@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECC744BCBA844EB7F05F5D1 /* Pods_InstaImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7FE145BE456468DD45FF6A /* Pods_InstaImagePicker.framework */; };
+		B7457F82219BA1D5007006BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7457F81219BA1D5007006BB /* AppDelegate.swift */; };
+		B7457F84219BA1D5007006BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7457F83219BA1D5007006BB /* ViewController.swift */; };
+		B7457F87219BA1D5007006BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7457F85219BA1D5007006BB /* Main.storyboard */; };
+		B7457F89219BA1D7007006BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7457F88219BA1D7007006BB /* Assets.xcassets */; };
+		B7457F8C219BA1D7007006BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7457F8A219BA1D7007006BB /* LaunchScreen.storyboard */; };
+		B7457F94219BBA61007006BB /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7457F93219BBA61007006BB /* default.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02FD5BCB4080CFB7E18DF7A3 /* Pods-InstaImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaImagePicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaImagePicker/Pods-InstaImagePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		B7457F7E219BA1D5007006BB /* InstaImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7457F81219BA1D5007006BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7457F83219BA1D5007006BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7457F86219BA1D5007006BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7457F88219BA1D7007006BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7457F8B219BA1D7007006BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7457F8D219BA1D7007006BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7457F93219BBA61007006BB /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		F41BC753A5660B68892EC135 /* Pods-InstaImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaImagePicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaImagePicker/Pods-InstaImagePicker.release.xcconfig"; sourceTree = "<group>"; };
+		FC7FE145BE456468DD45FF6A /* Pods_InstaImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7457F7B219BA1D5007006BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECC744BCBA844EB7F05F5D1 /* Pods_InstaImagePicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CE81B6287B4A24E1C25573 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FE145BE456468DD45FF6A /* Pods_InstaImagePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B268362F7BBD78402FC070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02FD5BCB4080CFB7E18DF7A3 /* Pods-InstaImagePicker.debug.xcconfig */,
+				F41BC753A5660B68892EC135 /* Pods-InstaImagePicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7457F75219BA1D5007006BB = {
+			isa = PBXGroup;
+			children = (
+				B7457F80219BA1D5007006BB /* InstaImagePicker */,
+				B7457F7F219BA1D5007006BB /* Products */,
+				03B268362F7BBD78402FC070 /* Pods */,
+				02CE81B6287B4A24E1C25573 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7457F7F219BA1D5007006BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7457F7E219BA1D5007006BB /* InstaImagePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7457F80219BA1D5007006BB /* InstaImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B7457F81219BA1D5007006BB /* AppDelegate.swift */,
+				B7457F83219BA1D5007006BB /* ViewController.swift */,
+				B7457F85219BA1D5007006BB /* Main.storyboard */,
+				B7457F88219BA1D7007006BB /* Assets.xcassets */,
+				B7457F8A219BA1D7007006BB /* LaunchScreen.storyboard */,
+				B7457F8D219BA1D7007006BB /* Info.plist */,
+				B7457F93219BBA61007006BB /* default.jpg */,
+			);
+			path = InstaImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7457F7D219BA1D5007006BB /* InstaImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7457F90219BA1D7007006BB /* Build configuration list for PBXNativeTarget "InstaImagePicker" */;
+			buildPhases = (
+				B19AA03F2E0FBCF1DF58B2A2 /* [CP] Check Pods Manifest.lock */,
+				B7457F7A219BA1D5007006BB /* Sources */,
+				B7457F7B219BA1D5007006BB /* Frameworks */,
+				B7457F7C219BA1D5007006BB /* Resources */,
+				BD8565CA28DEA098D4B28BFC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaImagePicker;
+			productName = InstaImagePicker;
+			productReference = B7457F7E219BA1D5007006BB /* InstaImagePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7457F76219BA1D5007006BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Togami Yuki";
+				TargetAttributes = {
+					B7457F7D219BA1D5007006BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B7457F79219BA1D5007006BB /* Build configuration list for PBXProject "InstaImagePicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7457F75219BA1D5007006BB;
+			productRefGroup = B7457F7F219BA1D5007006BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7457F7D219BA1D5007006BB /* InstaImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7457F7C219BA1D5007006BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7457F8C219BA1D7007006BB /* LaunchScreen.storyboard in Resources */,
+				B7457F89219BA1D7007006BB /* Assets.xcassets in Resources */,
+				B7457F87219BA1D5007006BB /* Main.storyboard in Resources */,
+				B7457F94219BBA61007006BB /* default.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B19AA03F2E0FBCF1DF58B2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaImagePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8565CA28DEA098D4B28BFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InstaImagePicker/Pods-InstaImagePicker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaImagePicker/Pods-InstaImagePicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7457F7A219BA1D5007006BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7457F84219BA1D5007006BB /* ViewController.swift in Sources */,
+				B7457F82219BA1D5007006BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7457F85219BA1D5007006BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7457F86219BA1D5007006BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7457F8A219BA1D7007006BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7457F8B219BA1D7007006BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7457F8E219BA1D7007006BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7457F8F219BA1D7007006BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7457F91219BA1D7007006BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FD5BCB4080CFB7E18DF7A3 /* Pods-InstaImagePicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3647679NTF;
+				INFOPLIST_FILE = InstaImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = togaminnnn.InstaImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7457F92219BA1D7007006BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41BC753A5660B68892EC135 /* Pods-InstaImagePicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3647679NTF;
+				INFOPLIST_FILE = InstaImagePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = togaminnnn.InstaImagePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7457F79219BA1D5007006BB /* Build configuration list for PBXProject "InstaImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7457F8E219BA1D7007006BB /* Debug */,
+				B7457F8F219BA1D7007006BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7457F90219BA1D7007006BB /* Build configuration list for PBXNativeTarget "InstaImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7457F91219BA1D7007006BB /* Debug */,
+				B7457F92219BA1D7007006BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7457F76219BA1D5007006BB /* Project object */;
+}
